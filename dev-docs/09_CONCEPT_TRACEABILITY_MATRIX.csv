@@ -1,0 +1,502 @@
+﻿ID,Tier,Topic,Concept,Demonstration,Phase,Required Evidence,Status,Evidence Path
+C001,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Joins,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C002,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Anti-joins and semi-joins,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C003,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,CTEs,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C004,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Subqueries,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C005,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Window functions,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C006,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Aggregations,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C007,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,CASE expressions,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C008,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Date/time manipulation,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C009,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Deduplication,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C010,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,NULL handling,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C011,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Query plans,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C012,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Index concepts,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C013,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Query optimization,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C014,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Transactions,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C015,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Incremental loading patterns,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C016,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,SQL — VERY STRONG,Slowly changing dimensions,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C017,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,"Functions, classes, and modules",Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C018,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,"Lists, dictionaries, sets, comprehensions",Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C019,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,File processing,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C020,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,CSV and JSON,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C021,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,REST APIs,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C022,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Exception handling,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C023,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Logging,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C024,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Datetime handling,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C025,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Database connections,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C026,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,pandas,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C027,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,boto3,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C028,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Maintainable pipeline code,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C029,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Python — VERY STRONG,Unit testing,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C030,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Fact tables,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C031,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Dimension tables,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C032,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Star schemas,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C033,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Snowflake schemas,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C034,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Surrogate vs. natural keys,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C035,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Grain,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C036,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Cardinality,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C037,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Slowly changing dimensions,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C038,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Normalization vs. denormalization,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C039,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,OLTP vs. OLAP,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C040,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,Data Modeling — VERY STRONG,Analytical model design,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C041,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,ETL: Extract → Transform → Load,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C042,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,ELT: Extract → Load → Transform,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C043,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Full loads,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C044,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Incremental loads,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C045,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,CDC / Change Data Capture,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C046,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Idempotency,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C047,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Upserts,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C048,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Deduplication,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C049,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Watermarks and checkpoints,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C050,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Backfills,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C051,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Retry strategies,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C052,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Schema evolution,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C053,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Error handling,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C054,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Data validation,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C055,TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS,ETL / ELT — VERY STRONG,Pipeline dependencies,Core implementation + tests,"Phases 2, 7-10",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C056,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Buckets and objects,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C057,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Object keys and prefixes,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C058,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Permissions,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C059,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Storage classes conceptually,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C060,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Versioning,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C061,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Lifecycle policies,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C062,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Encryption,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C063,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Event notifications,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C064,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,Partitioned data layouts,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C065,TIER 2 — CORE AWS DATA ENGINEERING,Amazon S3,S3 as a data lake,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C066,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,CSV,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C067,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,JSON,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C068,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,Parquet — know well,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C069,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,Avro — conceptual understanding,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C070,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,Row-oriented vs. columnar storage,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C071,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,Compression,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C072,TIER 2 — CORE AWS DATA ENGINEERING,File Formats,Why Parquet is efficient for analytics,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C073,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue Jobs,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C074,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue Crawlers,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C075,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue Data Catalog,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C076,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue databases and tables,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C077,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue connections,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C078,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue Studio conceptually,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C079,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Job bookmarks,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C080,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Scheduling and triggers,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C081,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Reading/writing S3,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C082,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Reading/writing databases,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C083,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue + Spark,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C084,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,Glue + Redshift,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C085,TIER 2 — CORE AWS DATA ENGINEERING,AWS Glue — KNOW WELL,IAM roles for Glue,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C086,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,What distributed processing means,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C087,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Driver,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C088,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Executors,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C089,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,DataFrames,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C090,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Transformations,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C091,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Actions,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C092,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Lazy evaluation,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C093,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Partitions,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C094,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Shuffles,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C095,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Joins,Core implementation + performance evidence,Phases 3-8,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C096,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Aggregations,Core implementation + performance evidence,Phases 3-8,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C097,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Spark SQL,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C098,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Reading/writing Parquet,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C099,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Reading/writing S3,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C100,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Data skew,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C101,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Repartition,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C102,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Coalesce,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C103,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Basic performance optimization,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C104,TIER 2 — CORE AWS DATA ENGINEERING,Apache Spark / PySpark — KNOW WELL,Writing real PySpark jobs,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C105,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Serverless SQL queries against S3,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C106,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Glue Data Catalog integration,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C107,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,External tables,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C108,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Partitions,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C109,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Querying Parquet,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C110,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Data scanned and query cost,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C111,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Athena,Basic query optimization,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C112,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,OLAP/data warehouse purpose,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C113,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Columnar storage,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C114,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,MPP architecture conceptually,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C115,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Tables and schema design,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C116,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,COPY,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C117,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,UNLOAD,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C118,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Distribution styles,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C119,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,DISTSTYLE EVEN,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C120,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,DISTSTYLE KEY,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C121,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,DISTSTYLE ALL,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C122,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,DISTSTYLE AUTO,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C123,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Distribution keys,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C124,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Sort keys,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C125,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Data skew,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C126,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Redshift Serverless,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C127,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Materialized views,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C128,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Loading from S3,Core implementation + performance evidence,Phases 3-8,DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C129,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,IAM integration,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C130,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Basic workload/performance concepts,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C131,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Redshift Spectrum,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C132,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Streaming ingestion,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C133,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Snapshots,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C134,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,Cross-region snapshot copying,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C135,TIER 2 — CORE AWS DATA ENGINEERING,Amazon Redshift — KNOW WELL,KMS encryption and snapshot copy grants,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C136,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,DAGs,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C137,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Tasks,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C138,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Dependencies,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C139,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Scheduling,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C140,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Operators,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C141,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Sensors,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C142,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Retries,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C143,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Backfills,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C144,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Parameters,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C145,TIER 3 — PIPELINE ORCHESTRATION,Apache Airflow,Failure handling,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C146,TIER 3 — PIPELINE ORCHESTRATION,Amazon MWAA,Understand that MWAA = Managed Workflows for Apache Airflow,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C147,TIER 3 — PIPELINE ORCHESTRATION,Amazon MWAA,Know when managed Airflow would be useful,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C148,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,State machines,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C149,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,Task sequencing,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C150,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,Branching,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C151,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,Retries,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C152,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,Failure handling,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C153,TIER 3 — PIPELINE ORCHESTRATION,AWS Step Functions,Basic workflow creation,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C154,TIER 3 — PIPELINE ORCHESTRATION,Amazon EventBridge,Event routing,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C155,TIER 3 — PIPELINE ORCHESTRATION,Amazon EventBridge,Scheduled events,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C156,TIER 3 — PIPELINE ORCHESTRATION,Amazon EventBridge,Triggering pipelines,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C157,TIER 3 — PIPELINE ORCHESTRATION,Amazon EventBridge,Event-driven architectures conceptually,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C158,TIER 4 — STREAMING,Streaming Fundamentals,Batch vs. streaming,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C159,TIER 4 — STREAMING,Streaming Fundamentals,Producers,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C160,TIER 4 — STREAMING,Streaming Fundamentals,Consumers,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C161,TIER 4 — STREAMING,Streaming Fundamentals,Events/records,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C162,TIER 4 — STREAMING,Streaming Fundamentals,Ordering,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C163,TIER 4 — STREAMING,Streaming Fundamentals,Retention,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C164,TIER 4 — STREAMING,Streaming Fundamentals,Delivery semantics conceptually,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C165,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Streams,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C166,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Records,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C167,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Producers,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C168,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Consumers,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C169,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Shards,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C170,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Partition keys,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C171,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Retention,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C172,TIER 4 — STREAMING,Amazon Kinesis Data Streams,Scaling concepts,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C173,TIER 4 — STREAMING,Apache Kafka,Producers,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C174,TIER 4 — STREAMING,Apache Kafka,Consumers,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C175,TIER 4 — STREAMING,Apache Kafka,Topics,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C176,TIER 4 — STREAMING,Apache Kafka,Partitions,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C177,TIER 4 — STREAMING,Apache Kafka,Consumer groups,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C178,TIER 4 — STREAMING,Apache Kafka,Offsets,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C179,TIER 4 — STREAMING,Apache Kafka,Ordering,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C180,TIER 4 — STREAMING,Apache Kafka,Retention,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C181,TIER 4 — STREAMING,Apache Kafka,Delivery semantics conceptually,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C182,TIER 4 — STREAMING,Amazon MSK,MSK = Amazon Managed Streaming for Apache Kafka,Disposable comparison lab,"Phases 12, 18",Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C183,TIER 4 — STREAMING,Amazon MSK,Understand Kinesis vs. MSK at a high level,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C184,TIER 4 — STREAMING,Amazon Data Firehose,Managed streaming delivery,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C185,TIER 4 — STREAMING,Amazon Data Firehose,Delivery to S3/Redshift and other destinations,Core implementation + performance evidence,Phases 3-8,DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C186,TIER 4 — STREAMING,Amazon Data Firehose,Difference from Kinesis Data Streams,Core streaming implementation,Phase 12,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C187,TIER 4 — STREAMING,Redshift Streaming Ingestion,Understand direct streaming ingestion from Kinesis/MSK,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C188,TIER 4 — STREAMING,Redshift Streaming Ingestion,Understand near-real-time analytics use cases,Core implementation + focused admin labs,"Phases 10, 12, 18",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C189,TIER 5 — AWS DATABASES,Amazon RDS,Managed relational database concept,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C190,TIER 5 — AWS DATABASES,Amazon RDS,PostgreSQL/MySQL/etc,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C191,TIER 5 — AWS DATABASES,Amazon RDS,DB instances,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C192,TIER 5 — AWS DATABASES,Amazon RDS,Storage,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C193,TIER 5 — AWS DATABASES,Amazon RDS,Backups,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C194,TIER 5 — AWS DATABASES,Amazon RDS,Multi-AZ,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C195,TIER 5 — AWS DATABASES,Amazon RDS,Read replicas,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C196,TIER 5 — AWS DATABASES,Amazon RDS,Security groups,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C197,TIER 5 — AWS DATABASES,Amazon RDS,Connection management,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C198,TIER 5 — AWS DATABASES,Amazon RDS,Working set / RAM,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C199,TIER 5 — AWS DATABASES,Amazon RDS,ReadIOPS,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C200,TIER 5 — AWS DATABASES,Amazon RDS,DNS TTL and failover,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C201,TIER 5 — AWS DATABASES,Amazon RDS,RDS Proxy,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C202,TIER 5 — AWS DATABASES,Amazon Aurora,AWS-designed relational database,Disposable comparison lab / architecture evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C203,TIER 5 — AWS DATABASES,Amazon Aurora,MySQL/PostgreSQL compatibility,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C204,TIER 5 — AWS DATABASES,Amazon Aurora,Aurora vs. standard RDS,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C205,TIER 5 — AWS DATABASES,Amazon Aurora,Aurora Serverless,Disposable comparison lab / architecture evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C206,TIER 5 — AWS DATABASES,Amazon Aurora,ACUs,Disposable comparison lab / architecture evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C207,TIER 5 — AWS DATABASES,Amazon Aurora,Read replicas,Disposable comparison lab / architecture evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C208,TIER 5 — AWS DATABASES,Amazon Aurora,Zero-ETL integrations,Disposable comparison lab / architecture evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C209,TIER 5 — AWS DATABASES,Amazon DynamoDB,"Tables, items, attributes",Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C210,TIER 5 — AWS DATABASES,Amazon DynamoDB,Partition keys,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C211,TIER 5 — AWS DATABASES,Amazon DynamoDB,Sort keys,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C212,TIER 5 — AWS DATABASES,Amazon DynamoDB,Access-pattern-driven design,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C213,TIER 5 — AWS DATABASES,Amazon DynamoDB,Query vs. Scan,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C214,TIER 5 — AWS DATABASES,Amazon DynamoDB,GetItem / PutItem / UpdateItem / DeleteItem,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C215,TIER 5 — AWS DATABASES,Amazon DynamoDB,Batch operations,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C216,TIER 5 — AWS DATABASES,Amazon DynamoDB,PartiQL,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C217,TIER 5 — AWS DATABASES,Amazon DynamoDB,Global Secondary Indexes (GSI),Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C218,TIER 5 — AWS DATABASES,Amazon DynamoDB,Local Secondary Indexes (LSI) conceptually,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C219,TIER 5 — AWS DATABASES,Amazon DynamoDB,RCU,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C220,TIER 5 — AWS DATABASES,Amazon DynamoDB,WCU,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C221,TIER 5 — AWS DATABASES,Amazon DynamoDB,On-demand vs. provisioned capacity,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C222,TIER 5 — AWS DATABASES,Amazon DynamoDB,TTL,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C223,TIER 5 — AWS DATABASES,Amazon DynamoDB,DynamoDB Streams,Supporting implementation + focused lab,Phases 16-18,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C224,TIER 5 — AWS DATABASES,Amazon DynamoDB,Stream images,Supporting implementation + focused lab,Phases 16-18,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C225,TIER 5 — AWS DATABASES,Amazon DynamoDB,Basic boto3 interaction,Supporting implementation + focused lab,Phases 16-18,Python source + unit tests + logs,PLANNED,TBD
+C226,TIER 5 — AWS DATABASES,Amazon DynamoDB,When DynamoDB is appropriate,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C227,TIER 5 — AWS DATABASES,Amazon DynamoDB,When NOT to use DynamoDB,Supporting implementation + focused lab,Phases 16-18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C228,TIER 5 — AWS DATABASES,DAX,DynamoDB Accelerator,Supporting implementation + focused lab,Phases 16-18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C229,TIER 5 — AWS DATABASES,DAX,DAX nodes and clusters,Disposable lab / tradeoff evidence,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C230,TIER 5 — AWS DATABASES,DAX,Understand DAX as a DynamoDB-specific cache,Supporting implementation + focused lab,Phases 16-18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C231,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,MongoDB and document databases,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C232,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Documents and BSON,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C233,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Redis,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C234,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Valkey,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C235,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Memcached,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C236,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Amazon ElastiCache,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C237,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Amazon MemoryDB,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C238,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Apache Cassandra,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C239,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,CQL,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C240,TIER 5 — AWS DATABASES,Other Database Technologies — RECOGNIZE,Amazon Keyspaces,Disposable lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C241,TIER 6 — AWS COMPUTE,AWS Lambda,Serverless functions,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C242,TIER 6 — AWS COMPUTE,AWS Lambda,Event-driven execution,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C243,TIER 6 — AWS COMPUTE,AWS Lambda,Triggers,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C244,TIER 6 — AWS COMPUTE,AWS Lambda,IAM execution roles,Core implementation,"Phases 5, 12, 16-17",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C245,TIER 6 — AWS COMPUTE,AWS Lambda,Environment variables,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C246,TIER 6 — AWS COMPUTE,AWS Lambda,Timeouts,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C247,TIER 6 — AWS COMPUTE,AWS Lambda,Memory configuration,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C248,TIER 6 — AWS COMPUTE,AWS Lambda,Logging,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C249,TIER 6 — AWS COMPUTE,AWS Lambda,S3 triggers,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C250,TIER 6 — AWS COMPUTE,AWS Lambda,EventBridge triggers,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C251,TIER 6 — AWS COMPUTE,AWS Lambda,API Gateway integration,Core implementation,"Phases 5, 12, 16-17",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C252,TIER 6 — AWS COMPUTE,AWS Lambda,Basic Python Lambda development,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C253,TIER 6 — AWS COMPUTE,Amazon EC2,Virtual server concept,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C254,TIER 6 — AWS COMPUTE,Amazon EC2,Instances,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C255,TIER 6 — AWS COMPUTE,Amazon EC2,AMIs,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C256,TIER 6 — AWS COMPUTE,Amazon EC2,Instance types,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C257,TIER 6 — AWS COMPUTE,Amazon EC2,Security groups,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C258,TIER 6 — AWS COMPUTE,Amazon EC2,SSH,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C259,TIER 6 — AWS COMPUTE,Amazon EC2,EBS,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C260,TIER 6 — AWS COMPUTE,Amazon EC2,VPC/subnets,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C261,TIER 6 — AWS COMPUTE,Amazon EC2,Scaling conceptually,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C262,TIER 6 — AWS COMPUTE,Amazon EBS,Persistent block storage,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C263,TIER 6 — AWS COMPUTE,Amazon EBS,Root vs. additional volumes,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C264,TIER 6 — AWS COMPUTE,Amazon EBS,Persistence after EC2 termination,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C265,TIER 6 — AWS COMPUTE,Amazon EBS,gp2 vs. gp3,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C266,TIER 6 — AWS COMPUTE,Amazon EBS,IOPS,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C267,TIER 6 — AWS COMPUTE,Amazon EFS,Shared network filesystem,Disposable infrastructure/compute lab,Phase 18,IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C268,TIER 6 — AWS COMPUTE,Amazon EFS,EFS vs. EBS vs. S3,Core implementation + performance evidence,Phases 3-8,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C269,TIER 6 — AWS COMPUTE,Amazon EFS,Mount points,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C270,TIER 6 — AWS COMPUTE,Amazon EFS,Mount targets,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C271,TIER 6 — AWS COMPUTE,Amazon EFS,NFS concept,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C272,TIER 6 — AWS COMPUTE,Amazon EFS,Security group access,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C273,TIER 6 — AWS COMPUTE,Amazon EMR,EMR = Elastic MapReduce,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C274,TIER 6 — AWS COMPUTE,Amazon EMR,Managed platform for Spark/Hadoop/etc,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C275,TIER 6 — AWS COMPUTE,Amazon EMR,Distributed data processing,Disposable infrastructure/compute lab,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C276,TIER 6 — AWS COMPUTE,Amazon EMR,EMR vs. Glue conceptually,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C277,TIER 6 — AWS COMPUTE,Amazon EMR,Running Spark/PySpark workloads,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C278,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Users,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C279,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Roles,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C280,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Policies,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C281,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Policy JSON,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C282,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Effect: Allow/Deny,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C283,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Actions,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C284,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Resources,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C285,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Trust policies,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C286,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Resource policies,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C287,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Least privilege,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C288,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Temporary credentials,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C289,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,STS,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C290,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Service roles,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C291,TIER 7 — AWS SECURITY AND NETWORKING,AWS IAM — IMPORTANT,Web identity federation,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C292,TIER 7 — AWS SECURITY AND NETWORKING,AWS KMS,KMS = Key Management Service,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C293,TIER 7 — AWS SECURITY AND NETWORKING,AWS KMS,Encryption keys,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C294,TIER 7 — AWS SECURITY AND NETWORKING,AWS KMS,How AWS services use KMS,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C295,TIER 7 — AWS SECURITY AND NETWORKING,AWS KMS,Encryption at rest,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C296,TIER 7 — AWS SECURITY AND NETWORKING,AWS KMS,Regional key considerations conceptually,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C297,TIER 7 — AWS SECURITY AND NETWORKING,AWS Secrets Manager,Secure secret storage,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C298,TIER 7 — AWS SECURITY AND NETWORKING,AWS Secrets Manager,Database credentials,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C299,TIER 7 — AWS SECURITY AND NETWORKING,AWS Secrets Manager,API credentials,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C300,TIER 7 — AWS SECURITY AND NETWORKING,AWS Secrets Manager,Avoiding hard-coded secrets,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C301,TIER 7 — AWS SECURITY AND NETWORKING,Networking,VPC,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C302,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Subnets,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C303,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Availability Zones,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C304,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Public vs. private subnets,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C305,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Security groups,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C306,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Ports,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C307,TIER 7 — AWS SECURITY AND NETWORKING,Networking,DNS,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C308,TIER 7 — AWS SECURITY AND NETWORKING,Networking,DNS TTL,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C309,TIER 7 — AWS SECURITY AND NETWORKING,Networking,VPC endpoints,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C310,TIER 7 — AWS SECURITY AND NETWORKING,Networking,PrivateLink,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C311,TIER 7 — AWS SECURITY AND NETWORKING,Networking,NAT conceptually,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C312,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Internet Gateway conceptually,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C313,TIER 7 — AWS SECURITY AND NETWORKING,Networking,SSL/TLS,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C314,TIER 7 — AWS SECURITY AND NETWORKING,Networking,HTTPS,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C315,TIER 7 — AWS SECURITY AND NETWORKING,Networking,Certificates,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C316,TIER 7 — AWS SECURITY AND NETWORKING,Networking,SSH,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C317,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,NULL detection,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C318,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Duplicate detection,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C319,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Invalid values,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C320,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Missing records,Core source-system implementation + focused lab,Phase 6,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C321,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Referential integrity,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C322,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Schema changes,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C323,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Unexpected row-count changes,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C324,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Freshness,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C325,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Reconciliation,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C326,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Data Quality,Data validation,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C327,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Completeness,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C328,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Accuracy,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C329,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Validity,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C330,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Uniqueness,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C331,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Consistency,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C332,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Know these dimensions:,Freshness,Core implementation + failure tests,"Phases 8, 11, 13",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C333,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Idempotency,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C334,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Retries,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C335,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Failure recovery,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C336,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Checkpointing,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C337,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Backfills,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C338,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Monitoring,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C339,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Alerting,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C340,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Logging,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C341,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Dependency management,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C342,TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING,Production Pipeline Design,Handling partial failures,Core implementation + failure tests,"Phases 8, 11, 13",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C343,TIER 9 — MONITORING AND MESSAGING,Amazon CloudWatch,Logs,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C344,TIER 9 — MONITORING AND MESSAGING,Amazon CloudWatch,Metrics,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C345,TIER 9 — MONITORING AND MESSAGING,Amazon CloudWatch,Alarms,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C346,TIER 9 — MONITORING AND MESSAGING,Amazon CloudWatch,Dashboards conceptually,Core source-system implementation + focused lab,Phase 6,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C347,TIER 9 — MONITORING AND MESSAGING,Amazon CloudWatch,Troubleshooting failed AWS jobs,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C348,TIER 9 — MONITORING AND MESSAGING,Amazon SQS,Message queues,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C349,TIER 9 — MONITORING AND MESSAGING,Amazon SQS,Producers and consumers,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C350,TIER 9 — MONITORING AND MESSAGING,Amazon SQS,Decoupling systems,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C351,TIER 9 — MONITORING AND MESSAGING,Amazon SQS,Retry/dead-letter queue concepts,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C352,TIER 9 — MONITORING AND MESSAGING,Amazon SNS,Publish/subscribe,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C353,TIER 9 — MONITORING AND MESSAGING,Amazon SNS,Notifications,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C354,TIER 9 — MONITORING AND MESSAGING,Amazon SNS,Alerting use cases,Core observability/messaging implementation,Phase 13,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C355,TIER 10 — DATA LAKE ARCHITECTURE,General,What a data lake is,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C356,TIER 10 — DATA LAKE ARCHITECTURE,General,S3 as a data lake,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C357,TIER 10 — DATA LAKE ARCHITECTURE,General,Raw/staging/curated layers,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C358,TIER 10 — DATA LAKE ARCHITECTURE,General,Partitioning,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C359,TIER 10 — DATA LAKE ARCHITECTURE,General,Parquet,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C360,TIER 10 — DATA LAKE ARCHITECTURE,General,Schema evolution,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C361,TIER 10 — DATA LAKE ARCHITECTURE,General,Glue Data Catalog,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C362,TIER 10 — DATA LAKE ARCHITECTURE,General,Data retention,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C363,TIER 10 — DATA LAKE ARCHITECTURE,General,Data lineage conceptually,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C364,TIER 10 — DATA LAKE ARCHITECTURE,General,Data lake vs. data warehouse,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C365,TIER 10 — DATA LAKE ARCHITECTURE,General,Lakehouse conceptually,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C366,TIER 11 — DATA WAREHOUSING,General,Fact tables,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C367,TIER 11 — DATA WAREHOUSING,General,Dimension tables,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C368,TIER 11 — DATA WAREHOUSING,General,Grain,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C369,TIER 11 — DATA WAREHOUSING,General,Star schemas,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C370,TIER 11 — DATA WAREHOUSING,General,Snowflake schemas,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C371,TIER 11 — DATA WAREHOUSING,General,Slowly changing dimensions,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C372,TIER 11 — DATA WAREHOUSING,General,Surrogate keys,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C373,TIER 11 — DATA WAREHOUSING,General,Natural keys,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C374,TIER 11 — DATA WAREHOUSING,General,Date dimensions,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C375,TIER 11 — DATA WAREHOUSING,General,Incremental fact loads,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C376,TIER 11 — DATA WAREHOUSING,General,Transaction fact tables,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C377,TIER 11 — DATA WAREHOUSING,General,Periodic snapshot facts,Core architecture/model implementation,Phases 3-10,SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C378,TIER 11 — DATA WAREHOUSING,General,Aggregate tables,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C379,TIER 11 — DATA WAREHOUSING,General,Materialized views,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C380,TIER 11 — DATA WAREHOUSING,General,Columnar storage,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C381,TIER 11 — DATA WAREHOUSING,General,OLAP workloads,Core architecture/model implementation,Phases 3-10,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C382,TIER 12 — SOFTWARE ENGINEERING,Git,Clone,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C383,TIER 12 — SOFTWARE ENGINEERING,Git,Branch,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C384,TIER 12 — SOFTWARE ENGINEERING,Git,Commit,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C385,TIER 12 — SOFTWARE ENGINEERING,Git,Push/pull,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C386,TIER 12 — SOFTWARE ENGINEERING,Git,Merge,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C387,TIER 12 — SOFTWARE ENGINEERING,Git,Pull requests,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C388,TIER 12 — SOFTWARE ENGINEERING,Git,Conflict resolution,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C389,TIER 12 — SOFTWARE ENGINEERING,Testing,Unit tests,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C390,TIER 12 — SOFTWARE ENGINEERING,Testing,Integration tests,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C391,TIER 12 — SOFTWARE ENGINEERING,Testing,Data tests,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C392,TIER 12 — SOFTWARE ENGINEERING,Testing,Mocking basics,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C393,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Modular code,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C394,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Configuration management,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C395,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Logging,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C396,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Error handling,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C397,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Documentation,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C398,TIER 12 — SOFTWARE ENGINEERING,Code Quality,Code reviews,Continuous software-engineering evidence,All phases,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C399,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,CI/CD,CI/CD concepts,Core deployment implementation,Phase 15,Git history/PR + workflow run + tests,PLANNED,TBD
+C400,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,CI/CD,Automated testing,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C401,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,CI/CD,Automated deployments,Core deployment implementation,Phase 15,Git history/PR + workflow run + tests,PLANNED,TBD
+C402,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,CI/CD,Dev/test/prod environments,Core deployment implementation,Phase 15,Git history/PR + workflow run + tests,PLANNED,TBD
+C403,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,Infrastructure as Code Learn at least one well:,Terraform OR,Core deployment implementation,Phase 15,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C404,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,Infrastructure as Code Learn at least one well:,AWS CDK / CloudFormation,Core deployment implementation,Phase 15,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C405,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,Understand:,Reproducible infrastructure,Core deployment implementation,Phase 15,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C406,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,Understand:,Version-controlled infrastructure,Core deployment implementation,Phase 15,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C407,TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE,Understand:,Deployment automation,Core deployment implementation,Phase 15,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C408,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,REST,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C409,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,HTTP,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C410,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,JSON,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C411,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Authentication,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C412,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,OAuth conceptually,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C413,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Pagination,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C414,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Rate limits,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C415,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Retries,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C416,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Incremental API extraction,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C417,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,Webhooks,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C418,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,API Gateway,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C419,TIER 14 — APIs AND EXTERNAL DATA INGESTION,General,API Gateway throttling,Core API implementation + documented extension,"Phases 5, 16",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C420,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Navigate directories,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C421,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Read/write files,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C422,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Environment variables,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C423,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,File permissions basics,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C424,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Processes,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C425,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Pipes,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C426,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,grep,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C427,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,curl,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C428,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,SSH,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C429,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Run Python/scripts,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C430,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",Linux / Shell,Inspect logs,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C431,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",AWS CLI,Configure/authenticate CLI,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C432,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",AWS CLI,Basic S3 commands,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C433,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",AWS CLI,Basic service interaction,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C434,"TIER 15 — LINUX, COMMAND LINE, AND AWS CLI",AWS CLI,Understand profiles/credentials conceptually,Development/lab evidence,"Phases 0, 18",Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C435,LOWER-PRIORITY RECOGNITION TOPICS,General,EFS,Coverage lab / tradeoff evidence,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C436,LOWER-PRIORITY RECOGNITION TOPICS,General,DAX,Coverage lab / tradeoff evidence,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C437,LOWER-PRIORITY RECOGNITION TOPICS,General,Amazon Keyspaces,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C438,LOWER-PRIORITY RECOGNITION TOPICS,General,MemoryDB,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C439,LOWER-PRIORITY RECOGNITION TOPICS,General,Memcached,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C440,LOWER-PRIORITY RECOGNITION TOPICS,General,Cassandra,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C441,LOWER-PRIORITY RECOGNITION TOPICS,General,DBLINK,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C442,LOWER-PRIORITY RECOGNITION TOPICS,General,Detailed Redshift administration,Coverage lab / tradeoff evidence,Phase 18,DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C443,LOWER-PRIORITY RECOGNITION TOPICS,General,Deep EC2 administration,Coverage lab / tradeoff evidence,Phase 18,Disposable lab IaC + runbook + screenshots/logs + teardown evidence,PLANNED,TBD
+C444,LOWER-PRIORITY RECOGNITION TOPICS,General,Deep VPC/network engineering,Coverage lab / tradeoff evidence,Phase 18,IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C445,LOWER-PRIORITY RECOGNITION TOPICS,General,Hadoop administration,Coverage lab / tradeoff evidence,Phase 18,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C446,CAPSTONE PROJECT,General,Airflow / MWAA orchestration,Core orchestration + managed-service lab,Phase 11,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C447,CAPSTONE PROJECT,General,IAM roles and least privilege,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C448,CAPSTONE PROJECT,General,KMS encryption,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C449,CAPSTONE PROJECT,General,Secrets Manager,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C450,CAPSTONE PROJECT,General,CloudWatch logging/monitoring,Core observability/messaging implementation,Phase 13,Alarm/queue/topic IaC + intentional failure evidence,PLANNED,TBD
+C451,CAPSTONE PROJECT,General,Failure alerts,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C452,CAPSTONE PROJECT,General,Data-quality checks,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C453,CAPSTONE PROJECT,General,Incremental processing,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C454,CAPSTONE PROJECT,General,Terraform or CDK infrastructure,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C455,CAPSTONE PROJECT,General,Git repository,Continuous software-engineering evidence,All phases,Git history/PR + workflow run + tests,PLANNED,TBD
+C456,CAPSTONE PROJECT,General,Automated tests,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C457,CAPSTONE PROJECT,General,Documentation,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C458,JOB-READY TARGET,General,Write strong SQL without assistance,Core implementation + tests,"Phases 2, 7-10",SQL/DDL + automated data tests + query/output evidence,PLANNED,TBD
+C459,JOB-READY TARGET,General,Write production-quality Python for data pipelines,Core implementation + tests,"Phases 2, 5, 16-17",Python source + unit tests + logs,PLANNED,TBD
+C460,JOB-READY TARGET,General,Write useful PySpark transformations,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C461,JOB-READY TARGET,General,Design relational and analytical data models,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C462,JOB-READY TARGET,General,"Explain ETL, ELT, CDC, batch, and streaming architectures",Core implementation or explicit evidence,Assigned during build,Producer/consumer code + live metrics + run artifact,PLANNED,TBD
+C463,JOB-READY TARGET,General,Build an S3-based data lake,Core implementation + performance evidence,Phases 3-8,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C464,JOB-READY TARGET,General,Build Glue/Spark transformation jobs,Core implementation + performance evidence,Phases 3-8,PySpark/Glue source + job run + CloudWatch + test output,PLANNED,TBD
+C465,JOB-READY TARGET,General,Query a data lake with Athena,Core implementation + performance evidence,Phases 3-8,DDL/query source + scan/cost evidence + result artifact,PLANNED,TBD
+C466,JOB-READY TARGET,General,Load and model data in Redshift,Core implementation + focused admin labs,"Phases 10, 12, 18",DDL/load/query source + system/query evidence + ADR,PLANNED,TBD
+C467,JOB-READY TARGET,General,Orchestrate a multi-step pipeline,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C468,JOB-READY TARGET,General,Secure AWS resources with IAM,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C469,JOB-READY TARGET,General,Monitor and troubleshoot pipeline failures,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C470,JOB-READY TARGET,General,Explain AWS networking sufficiently to troubleshoot connectivity,Core security implementation + focused labs,"Phases 0, 5-7, 14, 18",IaC/policy + architecture diagram + access/security test,PLANNED,TBD
+C471,JOB-READY TARGET,General,Build incremental and idempotent pipelines,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C472,JOB-READY TARGET,General,Implement basic data-quality checks,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C473,JOB-READY TARGET,General,Explain architectural tradeoffs rather than merely naming services,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C474,JOB-READY TARGET,General,Deploy infrastructure reproducibly,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C475,JOB-READY TARGET,General,Build and explain at least one complete AWS data engineering project,Core implementation or explicit evidence,Assigned during build,Source/IaC + test/run artifact + ADR or explanation,PLANNED,TBD
+C476,SUPPLEMENTAL INDUSTRY TOOLS,Terraform,Terraform providers/resources/data sources,Core implementation,Phase 15,Terraform source + terraform validate/plan evidence,PLANNED,TBD
+C477,SUPPLEMENTAL INDUSTRY TOOLS,Terraform,"Variables, outputs, modules, and environment configuration",Core implementation,Phase 15,Terraform module source + CI plan,PLANNED,TBD
+C478,SUPPLEMENTAL INDUSTRY TOOLS,Terraform,State strategy and state safety,Core implementation,Phase 15,ADR + backend/state configuration evidence,PLANNED,TBD
+C479,SUPPLEMENTAL INDUSTRY TOOLS,Terraform,Plan/apply/destroy workflow,Core implementation,Phase 15,CI/run artifacts + cleanup evidence,PLANNED,TBD
+C480,SUPPLEMENTAL INDUSTRY TOOLS,Terraform,Terraform CI/CD integration,Core implementation,Phase 15,GitHub Actions workflow + successful run,PLANNED,TBD
+C481,SUPPLEMENTAL INDUSTRY TOOLS,Docker,Dockerfile and image construction,Core implementation,Phase 2B,Dockerfile + build/smoke-test evidence,PLANNED,TBD
+C482,SUPPLEMENTAL INDUSTRY TOOLS,Docker,Containers and runtime configuration,Core implementation,Phase 2B,Container run + configuration tests,PLANNED,TBD
+C483,SUPPLEMENTAL INDUSTRY TOOLS,Docker,Environment variables and secret-safe configuration,Core implementation,"Phases 2B, 14",Source + security test,PLANNED,TBD
+C484,SUPPLEMENTAL INDUSTRY TOOLS,Docker,Amazon ECR image publishing,Core AWS integration,Phase 2B,ECR repo/image + CI/build evidence,PLANNED,TBD
+C485,SUPPLEMENTAL INDUSTRY TOOLS,Docker,Amazon ECS/Fargate container execution,Core AWS integration,Phase 2B,ECS task/service run + CloudWatch logs,PLANNED,TBD
+C486,SUPPLEMENTAL INDUSTRY TOOLS,dbt,dbt project structure and configuration,Core implementation,Phase 10B,dbt project source + build artifact,PLANNED,TBD
+C487,SUPPLEMENTAL INDUSTRY TOOLS,dbt,sources and source(),Core implementation,Phase 10B,dbt source YAML + lineage,PLANNED,TBD
+C488,SUPPLEMENTAL INDUSTRY TOOLS,dbt,ref() dependency management,Core implementation,Phase 10B,dbt DAG/docs + model source,PLANNED,TBD
+C489,SUPPLEMENTAL INDUSTRY TOOLS,dbt,"staging, intermediate, and mart layers",Core implementation,Phase 10B,dbt models + documentation,PLANNED,TBD
+C490,SUPPLEMENTAL INDUSTRY TOOLS,dbt,dbt tests and custom data tests,Core implementation,Phase 10B,dbt test definitions + passing/failing evidence,PLANNED,TBD
+C491,SUPPLEMENTAL INDUSTRY TOOLS,dbt,incremental models,Core implementation,Phase 10B,incremental model + rerun test,PLANNED,TBD
+C492,SUPPLEMENTAL INDUSTRY TOOLS,dbt,snapshots/history patterns,Core implementation,Phase 10B,snapshot source + history evidence,PLANNED,TBD
+C493,SUPPLEMENTAL INDUSTRY TOOLS,dbt,Jinja and macros,Core implementation,Phase 10B,macro/model source + compiled SQL,PLANNED,TBD
+C494,SUPPLEMENTAL INDUSTRY TOOLS,dbt,generated documentation and lineage,Core implementation,Phase 10B,dbt docs artifact/screenshots,PLANNED,TBD
+C495,SUPPLEMENTAL INDUSTRY TOOLS,dbt,dbt in CI,Core implementation,"Phases 10B, 15",CI workflow + dbt build/test run,PLANNED,TBD
+C496,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,File format vs table format distinction,Core architecture evidence,Phases 3-7,ADR/docs + working table,PLANNED,TBD
+C497,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,Iceberg table on S3,Core implementation,Phases 4-7,Catalog/table DDL + query evidence,PLANNED,TBD
+C498,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,Schema evolution,Core implementation,Phases 7-8,schema-change test + query evidence,PLANNED,TBD
+C499,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,Snapshots and time travel,Core implementation,Phases 7-8,snapshot/time-travel query evidence,PLANNED,TBD
+C500,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,Transactional update/delete behavior where supported,Core implementation,Phases 7-8,DML/test evidence,PLANNED,TBD
+C501,SUPPLEMENTAL INDUSTRY TOOLS,Apache Iceberg,AWS interoperability via Glue/Athena,Core implementation,Phases 4-8,Catalog + Athena/Glue evidence,PLANNED,TBD

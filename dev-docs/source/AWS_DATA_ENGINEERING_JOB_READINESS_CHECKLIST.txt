@@ -1,0 +1,382 @@
+AWS DATA ENGINEERING JOB READINESS CHECKLIST
+
+Purpose
+
+Work through these topics one by one. The goal is not to master every
+AWS service. Prioritize the technologies and concepts that appear most
+often in AWS data engineering work.
+
+Suggested Priority
+
+1.  S3 + IAM + Glue + Athena
+2.  PySpark
+3.  Redshift
+4.  Build an end-to-end AWS data lake/warehouse project
+5.  Airflow / MWAA
+6.  Kinesis + streaming fundamentals
+7.  Terraform or AWS CDK
+8.  CloudWatch + production monitoring
+
+TIER 1 — CORE DATA ENGINEERING FUNDAMENTALS
+
+SQL — VERY STRONG [ ] Joins [ ] Anti-joins and semi-joins [ ] CTEs [ ]
+Subqueries [ ] Window functions [ ] Aggregations [ ] CASE expressions [
+] Date/time manipulation [ ] Deduplication [ ] NULL handling [ ] Query
+plans [ ] Index concepts [ ] Query optimization [ ] Transactions [ ]
+Incremental loading patterns [ ] Slowly changing dimensions
+
+Python — VERY STRONG [ ] Functions, classes, and modules [ ] Lists,
+dictionaries, sets, comprehensions [ ] File processing [ ] CSV and JSON
+[ ] REST APIs [ ] Exception handling [ ] Logging [ ] Datetime handling [
+] Database connections [ ] pandas [ ] boto3 [ ] Maintainable pipeline
+code [ ] Unit testing
+
+Data Modeling — VERY STRONG [ ] Fact tables [ ] Dimension tables [ ]
+Star schemas [ ] Snowflake schemas [ ] Surrogate vs. natural keys [ ]
+Grain [ ] Cardinality [ ] Slowly changing dimensions [ ] Normalization
+vs. denormalization [ ] OLTP vs. OLAP [ ] Analytical model design
+
+ETL / ELT — VERY STRONG [ ] ETL: Extract → Transform → Load [ ] ELT:
+Extract → Load → Transform [ ] Full loads [ ] Incremental loads [ ] CDC
+/ Change Data Capture [ ] Idempotency [ ] Upserts [ ] Deduplication [ ]
+Watermarks and checkpoints [ ] Backfills [ ] Retry strategies [ ] Schema
+evolution [ ] Error handling [ ] Data validation [ ] Pipeline
+dependencies
+
+TIER 2 — CORE AWS DATA ENGINEERING
+
+Amazon S3 [ ] Buckets and objects [ ] Object keys and prefixes [ ]
+Permissions [ ] Storage classes conceptually [ ] Versioning [ ]
+Lifecycle policies [ ] Encryption [ ] Event notifications [ ]
+Partitioned data layouts [ ] S3 as a data lake
+
+Example partitioning: s3://data-lake/sales/year=2026/month=09/day=03/
+
+File Formats [ ] CSV [ ] JSON [ ] Parquet — know well [ ] Avro —
+conceptual understanding [ ] Row-oriented vs. columnar storage [ ]
+Compression [ ] Why Parquet is efficient for analytics
+
+Mental model: Parquet = compressed columnar file format optimized for
+analytics.
+
+AWS Glue — KNOW WELL [ ] Glue Jobs [ ] Glue Crawlers [ ] Glue Data
+Catalog [ ] Glue databases and tables [ ] Glue connections [ ] Glue
+Studio conceptually [ ] Job bookmarks [ ] Scheduling and triggers [ ]
+Reading/writing S3 [ ] Reading/writing databases [ ] Glue + Spark [ ]
+Glue + Redshift [ ] IAM roles for Glue
+
+Apache Spark / PySpark — KNOW WELL [ ] What distributed processing means
+[ ] Driver [ ] Executors [ ] DataFrames [ ] Transformations [ ] Actions
+[ ] Lazy evaluation [ ] Partitions [ ] Shuffles [ ] Joins [ ]
+Aggregations [ ] Spark SQL [ ] Reading/writing Parquet [ ]
+Reading/writing S3 [ ] Data skew [ ] Repartition [ ] Coalesce [ ] Basic
+performance optimization [ ] Writing real PySpark jobs
+
+Mental model: Spark = distributed engine for processing very large
+datasets. PySpark = Python interface for Spark.
+
+Amazon Athena [ ] Serverless SQL queries against S3 [ ] Glue Data
+Catalog integration [ ] External tables [ ] Partitions [ ] Querying
+Parquet [ ] Data scanned and query cost [ ] Basic query optimization
+
+Mental model: Athena = serverless SQL directly against S3.
+
+Amazon Redshift — KNOW WELL [ ] OLAP/data warehouse purpose [ ] Columnar
+storage [ ] MPP architecture conceptually [ ] Tables and schema design [
+] COPY [ ] UNLOAD [ ] Distribution styles [ ] DISTSTYLE EVEN [ ]
+DISTSTYLE KEY [ ] DISTSTYLE ALL [ ] DISTSTYLE AUTO [ ] Distribution keys
+[ ] Sort keys [ ] Data skew [ ] Redshift Serverless [ ] Materialized
+views [ ] Loading from S3 [ ] IAM integration [ ] Basic
+workload/performance concepts [ ] Redshift Spectrum [ ] Streaming
+ingestion [ ] Snapshots [ ] Cross-region snapshot copying [ ] KMS
+encryption and snapshot copy grants
+
+Mental models: Redshift = analytical data warehouse. Redshift Spectrum =
+lets Redshift query data stored in S3 without loading it first. Athena =
+query S3 directly without needing Redshift.
+
+TIER 3 — PIPELINE ORCHESTRATION
+
+Apache Airflow [ ] DAGs [ ] Tasks [ ] Dependencies [ ] Scheduling [ ]
+Operators [ ] Sensors [ ] Retries [ ] Backfills [ ] Parameters [ ]
+Failure handling
+
+Amazon MWAA [ ] Understand that MWAA = Managed Workflows for Apache
+Airflow [ ] Know when managed Airflow would be useful
+
+AWS Step Functions [ ] State machines [ ] Task sequencing [ ] Branching
+[ ] Retries [ ] Failure handling [ ] Basic workflow creation
+
+Example: Extract ↓ Validate ↓ Glue Job ↓ Quality Check ↓ Load Redshift
+
+Amazon EventBridge [ ] Event routing [ ] Scheduled events [ ] Triggering
+pipelines [ ] Event-driven architectures conceptually
+
+TIER 4 — STREAMING
+
+Streaming Fundamentals [ ] Batch vs. streaming [ ] Producers [ ]
+Consumers [ ] Events/records [ ] Ordering [ ] Retention [ ] Delivery
+semantics conceptually
+
+Amazon Kinesis Data Streams [ ] Streams [ ] Records [ ] Producers [ ]
+Consumers [ ] Shards [ ] Partition keys [ ] Retention [ ] Scaling
+concepts
+
+Apache Kafka [ ] Producers [ ] Consumers [ ] Topics [ ] Partitions [ ]
+Consumer groups [ ] Offsets [ ] Ordering [ ] Retention [ ] Delivery
+semantics conceptually
+
+Amazon MSK [ ] MSK = Amazon Managed Streaming for Apache Kafka [ ]
+Understand Kinesis vs. MSK at a high level
+
+Amazon Data Firehose [ ] Managed streaming delivery [ ] Delivery to
+S3/Redshift and other destinations [ ] Difference from Kinesis Data
+Streams
+
+Redshift Streaming Ingestion [ ] Understand direct streaming ingestion
+from Kinesis/MSK [ ] Understand near-real-time analytics use cases
+
+Mental model: Sources → Kinesis/MSK → Redshift → near-real-time
+analytics
+
+TIER 5 — AWS DATABASES
+
+Amazon RDS [ ] Managed relational database concept [ ]
+PostgreSQL/MySQL/etc. [ ] DB instances [ ] Storage [ ] Backups [ ]
+Multi-AZ [ ] Read replicas [ ] Security groups [ ] Connection management
+[ ] Working set / RAM [ ] ReadIOPS [ ] DNS TTL and failover [ ] RDS
+Proxy
+
+Amazon Aurora [ ] AWS-designed relational database [ ] MySQL/PostgreSQL
+compatibility [ ] Aurora vs. standard RDS [ ] Aurora Serverless [ ] ACUs
+[ ] Read replicas [ ] Zero-ETL integrations
+
+Mental model: Aurora = OLTP relational database. Zero-ETL = AWS-managed
+bridge/replication into supported analytics systems such as Redshift.
+
+Amazon DynamoDB [ ] Tables, items, attributes [ ] Partition keys [ ]
+Sort keys [ ] Access-pattern-driven design [ ] Query vs. Scan [ ]
+GetItem / PutItem / UpdateItem / DeleteItem [ ] Batch operations [ ]
+PartiQL [ ] Global Secondary Indexes (GSI) [ ] Local Secondary Indexes
+(LSI) conceptually [ ] RCU [ ] WCU [ ] On-demand vs. provisioned
+capacity [ ] TTL [ ] DynamoDB Streams [ ] Stream images [ ] Basic boto3
+interaction [ ] When DynamoDB is appropriate [ ] When NOT to use
+DynamoDB
+
+DAX [ ] DynamoDB Accelerator [ ] DAX nodes and clusters [ ] Understand
+DAX as a DynamoDB-specific cache
+
+Other Database Technologies — RECOGNIZE [ ] MongoDB and document
+databases [ ] Documents and BSON [ ] Redis [ ] Valkey [ ] Memcached [ ]
+Amazon ElastiCache [ ] Amazon MemoryDB [ ] Apache Cassandra [ ] CQL [ ]
+Amazon Keyspaces
+
+Mental models: ElastiCache = general-purpose managed cache. MemoryDB =
+durable Redis/Valkey-compatible in-memory primary database. Keyspaces =
+AWS-managed/serverless Cassandra-compatible database.
+
+TIER 6 — AWS COMPUTE
+
+AWS Lambda [ ] Serverless functions [ ] Event-driven execution [ ]
+Triggers [ ] IAM execution roles [ ] Environment variables [ ] Timeouts
+[ ] Memory configuration [ ] Logging [ ] S3 triggers [ ] EventBridge
+triggers [ ] API Gateway integration [ ] Basic Python Lambda development
+
+Amazon EC2 [ ] Virtual server concept [ ] Instances [ ] AMIs [ ]
+Instance types [ ] Security groups [ ] SSH [ ] EBS [ ] VPC/subnets [ ]
+Scaling conceptually
+
+Amazon EBS [ ] Persistent block storage [ ] Root vs. additional volumes
+[ ] Persistence after EC2 termination [ ] gp2 vs. gp3 [ ] IOPS
+
+Amazon EFS [ ] Shared network filesystem [ ] EFS vs. EBS vs. S3 [ ]
+Mount points [ ] Mount targets [ ] NFS concept [ ] Security group access
+
+Amazon EMR [ ] EMR = Elastic MapReduce [ ] Managed platform for
+Spark/Hadoop/etc. [ ] Distributed data processing [ ] EMR vs. Glue
+conceptually [ ] Running Spark/PySpark workloads
+
+TIER 7 — AWS SECURITY AND NETWORKING
+
+AWS IAM — IMPORTANT [ ] Users [ ] Roles [ ] Policies [ ] Policy JSON [ ]
+Effect: Allow/Deny [ ] Actions [ ] Resources [ ] Trust policies [ ]
+Resource policies [ ] Least privilege [ ] Temporary credentials [ ] STS
+[ ] Service roles [ ] Web identity federation
+
+AWS KMS [ ] KMS = Key Management Service [ ] Encryption keys [ ] How AWS
+services use KMS [ ] Encryption at rest [ ] Regional key considerations
+conceptually
+
+AWS Secrets Manager [ ] Secure secret storage [ ] Database credentials [
+] API credentials [ ] Avoiding hard-coded secrets
+
+Networking [ ] VPC [ ] Subnets [ ] Availability Zones [ ] Public
+vs. private subnets [ ] Security groups [ ] Ports [ ] DNS [ ] DNS TTL [
+] VPC endpoints [ ] PrivateLink [ ] NAT conceptually [ ] Internet
+Gateway conceptually [ ] SSL/TLS [ ] HTTPS [ ] Certificates [ ] SSH
+
+Mental model: VPC → Subnet → Security Group → Resource
+
+IP = which computer/network interface? Port = which service? TLS = is
+the network connection encrypted? IAM = is this identity authorized?
+
+TIER 8 — DATA QUALITY AND PRODUCTION ENGINEERING
+
+Data Quality [ ] NULL detection [ ] Duplicate detection [ ] Invalid
+values [ ] Missing records [ ] Referential integrity [ ] Schema changes
+[ ] Unexpected row-count changes [ ] Freshness [ ] Reconciliation [ ]
+Data validation
+
+Know these dimensions: [ ] Completeness [ ] Accuracy [ ] Validity [ ]
+Uniqueness [ ] Consistency [ ] Freshness
+
+Production Pipeline Design [ ] Idempotency [ ] Retries [ ] Failure
+recovery [ ] Checkpointing [ ] Backfills [ ] Monitoring [ ] Alerting [ ]
+Logging [ ] Dependency management [ ] Handling partial failures
+
+TIER 9 — MONITORING AND MESSAGING
+
+Amazon CloudWatch [ ] Logs [ ] Metrics [ ] Alarms [ ] Dashboards
+conceptually [ ] Troubleshooting failed AWS jobs
+
+Amazon SQS [ ] Message queues [ ] Producers and consumers [ ] Decoupling
+systems [ ] Retry/dead-letter queue concepts
+
+Amazon SNS [ ] Publish/subscribe [ ] Notifications [ ] Alerting use
+cases
+
+Example: Pipeline failure → CloudWatch → SNS → Alert
+
+TIER 10 — DATA LAKE ARCHITECTURE
+
+[ ] What a data lake is [ ] S3 as a data lake [ ] Raw/staging/curated
+layers [ ] Partitioning [ ] Parquet [ ] Schema evolution [ ] Glue Data
+Catalog [ ] Data retention [ ] Data lineage conceptually [ ] Data lake
+vs. data warehouse [ ] Lakehouse conceptually
+
+Core architecture to understand:
+
+Sources ↓ S3 RAW ↓ Glue / Spark ↓ S3 CURATED ↓ Parquet ↓ Glue Data
+Catalog ↓ +——————+ | | Athena Redshift ↓ BI
+
+TIER 11 — DATA WAREHOUSING
+
+[ ] Fact tables [ ] Dimension tables [ ] Grain [ ] Star schemas [ ]
+Snowflake schemas [ ] Slowly changing dimensions [ ] Surrogate keys [ ]
+Natural keys [ ] Date dimensions [ ] Incremental fact loads [ ]
+Transaction fact tables [ ] Periodic snapshot facts [ ] Aggregate tables
+[ ] Materialized views [ ] Columnar storage [ ] OLAP workloads
+
+TIER 12 — SOFTWARE ENGINEERING
+
+Git [ ] Clone [ ] Branch [ ] Commit [ ] Push/pull [ ] Merge [ ] Pull
+requests [ ] Conflict resolution
+
+Testing [ ] Unit tests [ ] Integration tests [ ] Data tests [ ] Mocking
+basics
+
+Code Quality [ ] Modular code [ ] Configuration management [ ] Logging [
+] Error handling [ ] Documentation [ ] Code reviews
+
+TIER 13 — CI/CD AND INFRASTRUCTURE AS CODE
+
+CI/CD [ ] CI/CD concepts [ ] Automated testing [ ] Automated deployments
+[ ] Dev/test/prod environments
+
+Infrastructure as Code Learn at least one well: [ ] Terraform OR [ ] AWS
+CDK / CloudFormation
+
+Understand: [ ] Reproducible infrastructure [ ] Version-controlled
+infrastructure [ ] Deployment automation
+
+TIER 14 — APIs AND EXTERNAL DATA INGESTION
+
+[ ] REST [ ] HTTP [ ] JSON [ ] Authentication [ ] OAuth conceptually [ ]
+Pagination [ ] Rate limits [ ] Retries [ ] Incremental API extraction [
+] Webhooks [ ] API Gateway [ ] API Gateway throttling
+
+TIER 15 — LINUX, COMMAND LINE, AND AWS CLI
+
+Linux / Shell [ ] Navigate directories [ ] Read/write files [ ]
+Environment variables [ ] File permissions basics [ ] Processes [ ]
+Pipes [ ] grep [ ] curl [ ] SSH [ ] Run Python/scripts [ ] Inspect logs
+
+AWS CLI [ ] Configure/authenticate CLI [ ] Basic S3 commands [ ] Basic
+service interaction [ ] Understand profiles/credentials conceptually
+
+LOWER-PRIORITY RECOGNITION TOPICS
+
+Know what these are, but do not prioritize deep mastery unless a job
+requires them:
+
+[ ] EFS [ ] DAX [ ] Amazon Keyspaces [ ] MemoryDB [ ] Memcached [ ]
+Cassandra [ ] DBLINK [ ] Detailed Redshift administration [ ] Deep EC2
+administration [ ] Deep VPC/network engineering [ ] Hadoop
+administration
+
+CAPSTONE PROJECT
+
+Build an end-to-end AWS data engineering project that includes:
+
+REST API + PostgreSQL ↓ Data ingestion ↓ S3 RAW ↓ Glue / PySpark ↓
+Clean + validate + deduplicate ↓ S3 CURATED / PARQUET ↓ Glue Data
+Catalog ↓ +————-+ | | Athena Redshift ↓ Analytical star schema ↓ BI
+
+Add production capabilities:
+
+[ ] Airflow / MWAA orchestration [ ] IAM roles and least privilege [ ]
+KMS encryption [ ] Secrets Manager [ ] CloudWatch logging/monitoring [ ]
+Failure alerts [ ] Data-quality checks [ ] Incremental processing [ ]
+Terraform or CDK infrastructure [ ] Git repository [ ] Automated tests [
+] Documentation
+
+JOB-READY TARGET
+
+You do NOT need to memorize every AWS service.
+
+The target is to be able to:
+
+[ ] Write strong SQL without assistance. [ ] Write production-quality
+Python for data pipelines. [ ] Write useful PySpark transformations. [ ]
+Design relational and analytical data models. [ ] Explain ETL, ELT, CDC,
+batch, and streaming architectures. [ ] Build an S3-based data lake. [ ]
+Build Glue/Spark transformation jobs. [ ] Query a data lake with Athena.
+[ ] Load and model data in Redshift. [ ] Orchestrate a multi-step
+pipeline. [ ] Secure AWS resources with IAM. [ ] Monitor and
+troubleshoot pipeline failures. [ ] Explain AWS networking sufficiently
+to troubleshoot connectivity. [ ] Build incremental and idempotent
+pipelines. [ ] Implement basic data-quality checks. [ ] Explain
+architectural tradeoffs rather than merely naming services. [ ] Deploy
+infrastructure reproducibly. [ ] Build and explain at least one complete
+AWS data engineering project.
+
+CORE STACK TO REMEMBER
+
+VERY DEEP: SQL Python Data modeling ETL/ELT Pipeline design
+
+DEEP: S3 PySpark / Spark Glue Parquet Data lakes Athena Redshift Data
+warehousing
+
+SOLID WORKING KNOWLEDGE: IAM Lambda Airflow / MWAA Kinesis Kafka / MSK
+EventBridge Step Functions CloudWatch RDS / Aurora DynamoDB SQS / SNS
+Terraform or CDK
+
+RECOGNIZE / UNDERSTAND: EC2 EBS EFS VPC networking DAX ElastiCache
+MemoryDB Keyspaces Specialized AWS database/infrastructure services
+
+FINAL MENTAL MODEL
+
+Operational Sources RDS / Aurora / DynamoDB / APIs / Streams ↓ INGESTION
+↓ S3 RAW ↓ Glue / Spark / PySpark ↓ CLEAN + TRANSFORM + VALIDATE ↓ S3
+CURATED / PARQUET ↓ Glue Catalog ↓ +———+———+ | | Athena Redshift |
+Redshift Spectrum can also query S3 ↓ Analytics / BI
+
+Around the entire pipeline:
+
+Airflow / Step Functions = orchestration IAM = authorization KMS =
+encryption Secrets Manager = credentials/secrets CloudWatch = monitoring
+Terraform/CDK = infrastructure Git + tests = software engineering
+
+The goal is not simply to know what each box means. The goal is to be
+able to build this architecture, explain why each component is there,
+troubleshoot it when it fails, and discuss alternatives and tradeoffs.
