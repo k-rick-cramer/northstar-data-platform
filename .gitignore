@@ -28,3 +28,9 @@ temp/
 .DS_Store
 Thumbs.db
 Desktop.ini
+
+# Northstar simulator generated data
+simulator/data/generated/
+
+# Python package metadata
+*.egg-info/
