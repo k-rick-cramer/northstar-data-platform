@@ -128,9 +128,7 @@ export default function NorthstarPage() {
           <div className="space-y-5 text-lg leading-8 text-slate-600">
             <p>
               Northstar exists to demonstrate an entire data platform rather
-              than a collection of isolated AWS exercises. Every major
-              technology must have a reason to exist in the architecture and
-              must produce evidence that can be inspected.
+              than a collection of isolated AWS exercises.
             </p>
 
             <p>
