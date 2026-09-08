@@ -13,7 +13,7 @@ const navigation = [
 export function SiteHeader() {
   return (
     <header className="border-b border-slate-200 bg-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 lg:flex-row lg:items-center lg:justify-between">
         <Link
           href="/"
           className="text-lg font-semibold tracking-tight text-slate-950"
@@ -22,7 +22,7 @@ export function SiteHeader() {
         </Link>
 
         <nav aria-label="Primary navigation">
-          <ul className="flex items-center gap-6">
+          <ul className="flex flex-wrap items-center gap-x-5 gap-y-2">
             {navigation.map((item) => (
               <li key={item.href}>
                 <Link
