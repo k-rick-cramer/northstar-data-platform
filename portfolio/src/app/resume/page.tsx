@@ -363,9 +363,13 @@ export default function ResumePage() {
                 roles.
               </p>
 
-              <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-slate-400">
-                PDF coming soon
-              </p>
+              <a
+                href="/resumes/Rick_Cramer_Data_Engineer.pdf"
+                download
+                className="mt-4 inline-block text-sm font-semibold text-slate-950 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-950"
+              >
+                Download PDF
+              </a>
             </div>
 
             <div className="rounded-xl border border-slate-200 p-6">
@@ -378,14 +382,18 @@ export default function ResumePage() {
                 roles.
               </p>
 
-              <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-slate-400">
-                PDF coming soon
-              </p>
+              <a
+                href="/resumes/Rick_Cramer_Analytics_Engineer.pdf"
+                download
+                className="mt-4 inline-block text-sm font-semibold text-slate-950 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-950"
+              >
+                Download PDF
+              </a>
             </div>
 
             <div className="rounded-xl border border-slate-200 p-6">
               <p className="font-semibold text-slate-950">
-                Data Integration & Consulting
+                Data Integration &amp; Consulting
               </p>
 
               <p className="mt-2 text-sm leading-6 text-slate-600">
@@ -393,9 +401,13 @@ export default function ResumePage() {
                 roles.
               </p>
 
-              <p className="mt-4 text-xs font-semibold uppercase tracking-wide text-slate-400">
-                PDF coming soon
-              </p>
+              <a
+                href="/resumes/Rick_Cramer_Data_Integration_Consulting.pdf"
+                download
+                className="mt-4 inline-block text-sm font-semibold text-slate-950 underline decoration-slate-300 underline-offset-4 hover:decoration-slate-950"
+              >
+                Download PDF
+              </a>
             </div>
           </div>
         </div>
@@ -501,7 +513,6 @@ export default function ResumePage() {
                                 aria-hidden="true"
                                 className="mt-[0.65rem] h-1.5 w-1.5 shrink-0 rounded-full bg-slate-400"
                               />
-
                               <span>{bullet}</span>
                             </li>
                           ))}

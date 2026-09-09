@@ -32,7 +32,7 @@ export default function AboutPage() {
   return (
     <main>
       <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-20 lg:py-24">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:py-24">
           <div className="max-w-4xl">
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
               About Me
@@ -58,6 +58,14 @@ export default function AboutPage() {
               building technical systems that accurately represent that
               reality.
             </p>
+          </div>
+
+          <div className="mx-auto w-full max-w-xs lg:mx-0">
+            <img
+              src="/about/business-casual-outside.png"
+              alt="Rick Cramer outdoors in business casual attire"
+              className="aspect-[3/4] w-full rounded-2xl object-cover shadow-sm ring-1 ring-slate-200"
+            />
           </div>
         </div>
       </section>
@@ -180,6 +188,7 @@ export default function AboutPage() {
                 <dt className="font-semibold text-slate-950">
                   Deep SQL experience
                 </dt>
+
                 <dd className="mt-2 leading-7 text-slate-600">
                   PostgreSQL, SQL Server/T-SQL, and Oracle PL/SQL across
                   transformation, migration, analytics, troubleshooting, and
@@ -191,6 +200,7 @@ export default function AboutPage() {
                 <dt className="font-semibold text-slate-950">
                   Systems thinking
                 </dt>
+
                 <dd className="mt-2 leading-7 text-slate-600">
                   Experience tracing data through source applications,
                   transformations, integrations, business rules, and downstream
@@ -203,6 +213,7 @@ export default function AboutPage() {
                 <dt className="font-semibold text-slate-950">
                   Technical and business translation
                 </dt>
+
                 <dd className="mt-2 leading-7 text-slate-600">
                   Years of client-facing work translating business processes,
                   requirements, and legacy-system behavior into durable
@@ -244,7 +255,15 @@ export default function AboutPage() {
       </section>
 
       <section className="border-y border-slate-200 bg-white">
-        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[0.8fr_1.2fr] lg:items-start">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[340px_minmax(0,1fr)] lg:items-center">
+          <div className="mx-auto w-full max-w-sm lg:mx-0">
+            <img
+              src="/about/casual-outdoors.png"
+              alt="Rick Cramer outdoors"
+              className="aspect-[3/4] w-full rounded-2xl object-cover shadow-sm ring-1 ring-slate-200"
+            />
+          </div>
+
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
               Outside of Work
@@ -253,19 +272,21 @@ export default function AboutPage() {
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950">
               There is life outside the terminal
             </h2>
-          </div>
 
-          <div className="space-y-5 text-lg leading-8 text-slate-600">
-            <p>
-              Most of my time outside work is spent with my family and larger community. I also try
-              to stay active, especially through running, and I enjoy projects
-              that get me away from a screen, whether that means working in the
-              yard, organizing my work shed, growing vegetables, or taking care of our chickens.
-            </p>
+            <div className="mt-6 space-y-5 text-lg leading-8 text-slate-600">
+              <p>
+                Most of my time outside work is spent with my family and larger
+                community. I also try to stay active, especially through
+                running, and I enjoy projects that get me away from a screen,
+                whether that means working in the yard, organizing my work
+                shed, growing vegetables, or taking care of our chickens.
+              </p>
 
-            <p>
-              When I have some actual downtime, I am also a longtime Legend of Zelda fan.
-            </p>
+              <p>
+                When I have some actual downtime, I am also a longtime Legend of
+                Zelda fan.
+              </p>
+            </div>
           </div>
         </div>
       </section>
