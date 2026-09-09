@@ -22,7 +22,7 @@ export default function Home() {
   return (
     <main>
       <section className="border-b border-slate-200 bg-white">
-        <div className="mx-auto max-w-7xl px-6 py-24 lg:py-32">
+        <div className="mx-auto grid max-w-7xl gap-12 px-6 py-20 lg:grid-cols-[minmax(0,1fr)_320px] lg:items-center lg:py-28">
           <div className="max-w-4xl">
             <p className="mb-5 text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
               Data Engineer
@@ -63,6 +63,14 @@ export default function Home() {
               </Link>
             </div>
           </div>
+
+          <div className="mx-auto w-full max-w-xs lg:mx-0">
+            <img
+              src="/rick-cramer.jpg"
+              alt="Rick Cramer"
+              className="aspect-square w-full rounded-2xl object-cover shadow-sm ring-1 ring-slate-200"
+            />
+          </div>
         </div>
       </section>
 
@@ -90,6 +98,7 @@ export default function Home() {
             <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-500">
               Featured Project
             </p>
+
             <h2 className="mt-4 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
               Northstar Data Platform
             </h2>
